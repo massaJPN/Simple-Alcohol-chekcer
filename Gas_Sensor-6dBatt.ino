@@ -44,7 +44,7 @@ void loop()
 //    Serial.print(gas_value);
     Serial.print(gas_value_ave);
     Serial.println("V");
-    if (gas_value_ave * ATT > 2.0) {
+    if (gas_value_ave * ATT > VTH) {
     M5.Lcd.setTextColor(RED, BLACK);
     }
     M5.Lcd.setTextSize(2);
