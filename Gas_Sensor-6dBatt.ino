@@ -3,7 +3,7 @@
 //Waveshare MQ-3 gus Sensor , https://www.waveshare.com/mq-3-gas-sensor.htm
 
 #include <M5StickC.h>
-const float Vref = 2.2; //ATT -6dB時の最大電圧
+const float Vref = 1.75 ; //ATT -6dB時の最大電圧
 int gas_din=26; // M5stick-C IO26 Degital Input ,connect to the Dout terminal
 int gas_ain=36; // M5stick-C IO36 Analog Input ,connect to the Aout terminal
 int ad_value;
